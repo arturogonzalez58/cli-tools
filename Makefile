@@ -1,5 +1,5 @@
 wordCounter:
-	go build -o bin/wc cmd/wordCounter.go
+	go build -o bin/wc cmd/wordCounter/main.go
 
 clean:
 	rm bin/*
